@@ -1,29 +1,13 @@
-num1 = float(input("Enter the first number: "))
-# num2 = float(input("Enter the second number: "))
+name = "vishal"
+# for i in name:
+#     print(i)
 
-# print("\nSelect the operation:")
-# print("1. Addition (+)")
-# print("2. Subtraction (-)")
-# print("3. Multiplication (*)")
-# print("4. Division (/)")
+# colurs = ["red", "green", "blue", "yellow"]
+# for colour in colurs:
+#     print(colour)
 
-# choice = input("Enter your choice (1/2/3/4): ")
+# for i in range(1, 100):
+#     print(i)
 
-# match choice:
-#     case "1": 
-#         result = num1 + num2
-#         print("Result:", result)
-#     case "2": 
-#         result = num1 - num2
-#         print("Result:", result)
-#     case "3": 
-#         result = num1 * num2
-#         print("Result:", result)
-#     case "4": 
-#         if num2 != 0:
-#             result = num1 / num2
-#             print("Result:", result)
-#         else:
-#             print("Error: Division by zero is not allowed")
-#     case _: 
-#         print("Invalid Choice")
+# for i in range(2, 21, 2):
+#     print(i)
