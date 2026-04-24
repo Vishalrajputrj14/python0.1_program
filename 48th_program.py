@@ -6,25 +6,25 @@ class Library:
         self.books = []
         self.loadBooks()
 
-    # 📂 Load books from file
+    #  Load books from file
     def loadBooks(self):
         if os.path.exists(self.filename):
             with open(self.filename, "r") as f:
                 self.books = [line.strip() for line in f.readlines()]
 
-    # 💾 Save books to file
+    #  Save books to file
     def saveBooks(self):
         with open(self.filename, "w") as f:
             for book in self.books:
                 f.write(book + "\n")
 
-    # ➕ Add Book
+    # Add Book
     def addBook(self, book):
         self.books.append(book)
         self.saveBooks()
         print("✅ Book added successfully")
 
-    # ❌ Delete Book
+    #  Delete Book
     def deleteBook(self, book):
         if book in self.books:
             self.books.remove(book)
@@ -33,14 +33,14 @@ class Library:
         else:
             print("⚠️ Book not found")
 
-    # 🔍 Search Book
+    #  Search Book
     def searchBook(self, book):
         if book in self.books:
             print("🔍 Book found")
         else:
             print("❌ Book not found")
 
-    # 📖 Show Books
+    #  Show Books
     def showBooks(self):
         if len(self.books) == 0:
             print("📂 Library is empty")
@@ -50,7 +50,7 @@ class Library:
                 print(f"{i}. {book}")
 
 
-# 🔥 Menu System (User Interaction)
+# Menu System (User Interaction)
 def main():
     lib = Library()
 
