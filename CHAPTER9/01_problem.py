@@ -1,0 +1,1 @@
+f = open("C:\\Users\\HP VICTUS\\OneDrive\\ドキュメント\\python prgrams\\CHAPTER9\\poem.txt")

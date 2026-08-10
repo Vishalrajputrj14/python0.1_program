@@ -1,0 +1,1 @@
+a = input("entar numbar 1");

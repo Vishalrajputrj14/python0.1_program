@@ -1,0 +1,106 @@
+2025-09-16 13:45:01.415356 - User: open youtube | handled_local: True
+2025-09-16 13:45:16.550665 - User: open youtube | handled_local: True
+2025-09-16 13:46:09.405835 - User: kar | handled_local: False
+2025-09-16 13:46:10.789477 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:46:36.803278 - Opened app: notepad
+2025-09-16 13:46:36.803885 - User: please open | handled_local: True
+2025-09-16 13:46:55.556298 - Terminated process notepad.exe (pid 23800)
+2025-09-16 13:46:55.556993 - Terminated process notepad.exe (pid 23800)
+2025-09-16 13:46:56.321930 - User: close notepad | handled_local: True
+2025-09-16 13:47:11.366193 - User: aanchal | handled_local: False
+2025-09-16 13:47:12.616313 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:47:16.855307 - User:  | handled_local: False
+2025-09-16 13:47:18.421290 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:47:24.566118 - User: html kisne launch ki | handled_local: False
+2025-09-16 13:47:25.982430 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:47:46.800183 - User: open taskbar | handled_local: True
+2025-09-16 13:48:06.370937 - User: open tas | handled_local: True
+2025-09-16 13:48:26.284250 - User: coding ki naukari | handled_local: False
+2025-09-16 13:48:27.688352 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:48:42.313488 - User: open transfer | handled_local: True
+2025-09-16 13:49:05.997091 - User: open | handled_local: True
+2025-09-16 13:49:21.093004 - User: open microsoft store | handled_local: True
+2025-09-16 13:49:29.424080 - User: store | handled_local: False
+2025-09-16 13:49:30.752681 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:50:49.442720 - User:  | handled_local: False
+2025-09-16 13:50:50.606548 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:51:00.589489 - User: kaun si jagah | handled_local: False
+2025-09-16 13:51:02.090503 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:54:10.115837 - User: mujhe puchna kitni | handled_local: False
+2025-09-16 13:54:10.511896 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:54:37.448661 - User: ek notepad per login form | handled_local: False
+2025-09-16 13:54:38.011847 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 13:57:26.453188 - User: login page ka photo likhkar dikhao | handled_local: False
+2025-09-16 13:57:26.827941 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:09:26.253917 - User: open vs code | handled_local: True
+2025-09-16 14:09:30.688668 - User: notepad | handled_local: False
+2025-09-16 14:09:31.031753 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:09:39.592300 - Opened app: notepad
+2025-09-16 14:09:39.593174 - User: open notepad | handled_local: True
+2025-09-16 14:09:49.291961 - User: open vs code | handled_local: True
+2025-09-16 14:09:52.511261 - User: bs4 | handled_local: False
+2025-09-16 14:09:52.877045 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:10:09.643778 - User: open vs code | handled_local: True
+2025-09-16 14:10:29.603445 - Opened app: explorer
+2025-09-16 14:10:29.603847 - User: open file explorer | handled_local: True
+2025-09-16 14:10:38.236473 - User: close file explorer | handled_local: True
+2025-09-16 14:10:44.036358 - User: close file explorer | handled_local: True
+2025-09-16 14:11:15.225986 - User: file explorer mein delete files mein jao aur sari file se delete karo | handled_local: False
+2025-09-16 14:11:15.579164 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:11:31.385921 - Opened app: explorer
+2025-09-16 14:11:31.386767 - User: open file explorer delete files | handled_local: True
+2025-09-16 14:12:22.192188 - User: recycle bin | handled_local: False
+2025-09-16 14:12:22.536706 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:12:44.038619 - User: open recycle bin | handled_local: True
+2025-09-16 14:12:56.526611 - User: open microsoft store | handled_local: True
+2025-09-16 14:17:30.793787 - User: narendra modi kaun | handled_local: False
+2025-09-16 14:17:31.166491 - GPT: OpenAI API key not configured. I cannot answer knowledge questions right now.
+2025-09-16 14:20:32.011509 - User:  | handled_local: False
+2025-09-16 14:20:32.377127 - GPT: Sorry, I couldn't reach the AI service: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-16 14:21:21.132248 - User: jar | handled_local: False
+2025-09-16 14:21:21.492867 - GPT: Sorry, I couldn't reach the AI service: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-16 14:21:31.101143 - User: sexy video | handled_local: False
+2025-09-16 14:21:31.351560 - GPT: Sorry, I couldn't reach the AI service: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-16 14:24:13.226648 - User: what is python | handled_local: False
+2025-09-16 14:24:14.910532 - GPT: Sorry, I couldn't reach the AI service: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-09-16 14:32:53.810516 - User: what is python | handled_local: False
+2025-09-16 14:32:55.104107 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-16 14:37:15.692421 - User: where is what is python | handled_local: False
+2025-09-16 14:37:16.871836 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-16 14:37:25.018811 - User: what is python | handled_local: False
+2025-09-16 14:37:25.928663 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-16 14:37:40.152887 - User: open google | handled_local: True
+2025-09-16 14:37:53.460829 - User: open youtube | handled_local: True
+2025-09-16 14:42:10.684493 - User: gana | handled_local: False
+2025-09-16 14:42:11.995979 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-16 14:42:40.560948 - User: bhojpuri gana | handled_local: False
+2025-09-16 14:42:41.334354 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-16 14:43:28.025346 - User: kali gai hai | handled_local: False
+2025-09-16 14:43:28.890369 - GPT: Sorry, I couldn't reach the AI service: Incorrect API key provided: sk-or-v1*************************************************************f466. You can find your API key at https://platform.openai.com/account/api-keys.
